@@ -26,10 +26,10 @@ spec:
         matchNames:
           - default
           - networking
-      name: "you"
+      name: "combine"
       customApps:
-        - name: Some External Cluster Service
-          url: http://192.168.1.100:5000
+        - name: SoGo Webmail
+          url: https://dont.combine.space/SoGo
           icon: test-tube
       groups:
         - name: Communicate
