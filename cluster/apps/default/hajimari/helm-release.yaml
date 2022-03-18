@@ -34,8 +34,8 @@ spec:
           - networking
       name: "combine"
       customApps:
-        - name: SoGo Webmail
-          url: https://dont.combine.space/SoGo
+        - name: SOGo Webmail
+          url: https://dont.combine.space/SOGo
           icon: test-tube
       groups:
         - name: Communicate
