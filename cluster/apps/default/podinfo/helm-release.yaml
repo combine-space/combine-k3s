@@ -24,7 +24,7 @@ spec:
       retries: 3
   values:
     image:
-      repository: docker.io/stefanprodan/podinfo
+      repository: ghcr.io/stefanprodan/podinfo
       tag: 6.1.4
     ingress:
       enabled: true
@@ -40,7 +40,7 @@ spec:
         - host: "podinfo.${SECRET_DOMAIN}"
           paths:
             - path: /
-              pathType: Prefix
+              pathType: ImplementationSpecific
       tls:
         - secretName: podinfo-tls
           hosts:
