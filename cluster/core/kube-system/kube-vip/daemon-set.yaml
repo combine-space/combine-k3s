@@ -27,8 +27,6 @@ spec:
           env:
             - name: vip_arp
               value: "true"
-            - name: vip_interface
-              value: "eth0"
             - name: port
               value: "6443"
             - name: vip_cidr
@@ -48,7 +46,7 @@ spec:
             - name: vip_retryperiod
               value: "2"
             - name: address
-              value: "10.0.3.51"
+              value: "${BOOTSTRAP_KUBE_VIP_ADDR}"
           securityContext:
             capabilities:
               add:
