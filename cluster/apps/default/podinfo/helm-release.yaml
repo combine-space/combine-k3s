@@ -22,7 +22,7 @@ spec:
   values:
     image:
       repository: ghcr.io/stefanprodan/podinfo
-      tag: 6.1.4
+      tag: 6.1.6
     ingress:
       enabled: true
       annotations:
