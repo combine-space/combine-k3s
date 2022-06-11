@@ -4,5 +4,4 @@ kind: Kustomization
 resources:
   - echo-server
   - hajimari
-  - podinfo
   - nfs
